@@ -32,10 +32,8 @@ string = input("Please enter a string of text (the bigger the better): ")
 words = list(string)
 n = (len(string))
 for n in range(1, n + 1):
-    revcor = list(n)
-
-n = (len(string))
-for n in range(1,len(string) + 1):
+    revcor = list(str(n)) for n in range(1, n + 1)
+print(revcor)
     #revcor[n] = words[n]
     
 
