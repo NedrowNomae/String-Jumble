@@ -26,8 +26,11 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string = input("Please enter a string of text (the bigger the better): ")
-
-
+words = list()
+def tnirp(b):
+    print(b[::-1])
+    
 
 print("You entered " + str(string) +". Now jumble it:")
-print(string[::-1])
+tnirp(string)
+
