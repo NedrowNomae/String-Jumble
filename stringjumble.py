@@ -29,7 +29,10 @@ string = input("Please enter a string of text (the bigger the better): ")
 words = list()
 def tnirp(b):
     print(b[::-1])
-    
+n = (len(string))
+
+
+
 
 print("You entered " + str(string) +". Now jumble it:")
 tnirp(string)
