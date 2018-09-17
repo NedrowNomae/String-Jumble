@@ -37,10 +37,8 @@ a = n
 print(a)
 for j in range(1, n + 1):
     if words[j-1] != " ":
-        revcor[a-j] = words[n-j]
-    else:
-        revcor[n-j] = "hey"
-        a = n-j
+        spaces = list(j-1)
+print(spaces)
 print(revcor)
 
 
