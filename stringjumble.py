@@ -27,3 +27,4 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string = input("Please enter a string of text (the bigger the better): ")
 print("You entered " + str(string) +". Now jumble it:")
+print(string[::-1])
