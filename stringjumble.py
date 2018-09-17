@@ -34,7 +34,9 @@ revcor = list(string)
 n = (len(string))
 for n in range(1, n + 1):
     if words[n-1] != ' ':
-        revcor[int(n)-1] = words[n]
+        revcor[int(n)-1] = words[int(n)]
+    else:
+        revcor[int(n)-1] = "hey"
 print(revcor)
     #revcor[n] = words[n]
     
