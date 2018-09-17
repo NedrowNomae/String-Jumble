@@ -38,9 +38,9 @@ print(a)
 for j in range(1, n + 1):
     if words[n-j] != " ":
         revcor[a-j] = words[n-j]
-        a = n-j
     else:
         revcor[n-j] = "hey"
+        a = n-j
 print(revcor)
 
 
