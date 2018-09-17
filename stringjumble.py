@@ -27,13 +27,15 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string = input("Please enter a string of text (the bigger the better): ")
 words = list(string)
-revcor = list()
+n = (len(string))
+for n in range(1, n + 1):
+    revcor = list()
 def tnirp(b):
     print(b[::-1])
 n = (len(string))
-for n in range(1,len(string)):
-    revcor[n] = words[n]
-
+for n in range(1,len(string) + 1):
+    #revcor[n] = words[n]
+    
 
 
 print("You entered " + str(string) +". Now jumble it:")
