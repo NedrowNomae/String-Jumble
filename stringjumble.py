@@ -30,8 +30,8 @@ def tnirp(b):
 #reverse the text
 string = input("Please enter a string of text (the bigger the better): ")
 words = list(string)
+revcor = list(string)
 n = (len(string))
-revcor = list()
 for n in range(1, n + 1):
     revcor[int(n)] = str(n)
 print(revcor)
