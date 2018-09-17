@@ -36,7 +36,7 @@ n = (len(string))
 a = n
 for n in range(n+1, 1):
     if words[n-1] != " ":
-        revcor[int(n)-1] = words[int(n)-1]
+        revcor[int(n)-a] = words[int(n)-1]
     else:
         revcor[int(n)-1] = "hey"
 print(revcor)
