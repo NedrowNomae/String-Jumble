@@ -26,11 +26,12 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string = input("Please enter a string of text (the bigger the better): ")
-words = list()
+words = list(string)
 def tnirp(b):
     print(b[::-1])
 n = (len(string))
-
+#for n in len(string):
+    #words[
 
 
 
