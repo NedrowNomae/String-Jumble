@@ -27,18 +27,21 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 def tnirp(b):
     print(b[::-1])
+a = 0
 #reverse the text
 string = input("Please enter a string of text (the bigger the better): ")
 words = list(string)
 revcor = list(string)
 n = (len(string))
-for n in range(1, n + 1):
+for n in range(n+1, 1):
     if words[n-1] != " ":
         revcor[int(n)-1] = words[int(n)-1]
+        a = a + 1
     else:
         revcor[int(n)-1] = "hey"
+        a = 0
 print(revcor)
-    
+print(a)
 
 
 print("You entered " + str(string) +". Now jumble it:")
