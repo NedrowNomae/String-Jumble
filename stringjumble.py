@@ -38,7 +38,7 @@ a = n
 print(a)
 for j in range(1, n + 1):
     if words[j-1] != " ":
-        spaces[j-1] = list[i]
+        spaces[j-1] = j
 print(spaces)
 print(revcor)
 
