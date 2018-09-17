@@ -28,7 +28,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 def tnirp(b):
     print(b[::-1])
 a = 0
-spaces = list()
+spaces = list(1)
 #reverse the text
 string = input("Please enter a string of text (the bigger the better): ")
 words = list(string)
