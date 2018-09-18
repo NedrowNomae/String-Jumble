@@ -39,6 +39,8 @@ a = n
 for q in range(0,n-1):
     if unedit[q] == ' ':
         spaces = list[q]
+    else:
+        print("Hey")
 print(spaces)
 #print(revcor)
 #print(idk)
