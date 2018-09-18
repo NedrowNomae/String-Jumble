@@ -53,7 +53,7 @@ for p in range(1, n + 1):
     else:
         revcor[p-1]
 for q in range(1,n):
-    if idk[q-1].isdigit == true:
+    if idk[q-1].isdigit == 'true':
         for z in range(q,n-q):
             revcor[z] = unedit[n-z]
 print(spaces)
