@@ -37,9 +37,8 @@ idk = list(string)
 n = (len(string))
 a = n
 for q in range(0,n-1):
-    if unedit[n] == ' ':
-        #spaces = list[q]
-        print("Hey")
+    if unedit[q] == ' ':
+        spaces = list[q]
 print(spaces)
 #print(revcor)
 #print(idk)
