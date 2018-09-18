@@ -50,8 +50,9 @@ for d in range(0,n-1):
         e = e + 1
 w = len(spaces)
 for t in range(0,w):
-    for y in range(spaces[t],0):
-        revcor[n-y] = unedit[y]
+    y = spaces[t]
+    print(y)
+#        revcor[n-y] = unedit[y]
 """for t in range(0,w):
     for y in range(0,t):
         for p in range(n-y,n):
@@ -67,7 +68,7 @@ for t in range(0,w):
         print("Hey")"""
 #print(u)
 print(spaces)
-print(revcor)
+#print(revcor)
 #print(idk)
 
 
