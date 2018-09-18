@@ -53,7 +53,7 @@ for p in range(1, n + 1):
     else:
         revcor[p-1]
 for q in range(1,n):
-    if idk[q-1] == in range(0, 1000000):
+    if int(idk[q-1]) == in range(0, 1000000):
         for z in range(q,n-q):
             revcor[z] = unedit[n-z]
 print(spaces)
