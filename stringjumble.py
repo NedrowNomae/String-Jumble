@@ -39,7 +39,7 @@ a = n
 b=0
 for q in range(0,n-1):
     if unedit[q] == ' ':
-        spaces[] = list[q]
+        spaces[b] = list[q]
     else:
         print("Hey")
 print(spaces)
