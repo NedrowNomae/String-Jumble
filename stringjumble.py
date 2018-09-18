@@ -30,6 +30,7 @@ def tnirp(b):
 a = 0
 #reverse the text
 string = input("Please enter a string of text (the bigger the better): ")
+unedit = list(string)
 words = list(string)
 revcor = list(string)
 spaces = list(string)
@@ -43,12 +44,18 @@ for j in range(1, n + 1):
     if words[j-1] != " ":
         spaces[j-1] = m
         m = m + 1
+    else:
+        m = 0
 for p in range(1, n + 1):
     if spaces[p-1] == " ":
         idk[b] = p-1
         b = b+1
     else:
         revcor[p-1]
+for q in range(1,n):
+    if idk[q-1].isdigit:
+        for z in range(q,n-q):
+            revcor(z) = unedit(n-z)
 print(spaces)
 print(revcor)
 print(idk)
