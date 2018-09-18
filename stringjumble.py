@@ -36,11 +36,13 @@ spaces = list(string)
 idk = list(string)
 n = (len(string))
 a = n
-b=0
+b = 0
+m = 0
 print(a)
 for j in range(1, n + 1):
     if words[j-1] != " ":
-        spaces[j-1] = j
+        spaces[j-1] = m
+        m = m + 1
 for p in range(1, n + 1):
     if spaces[p-1] == " ":
         idk[b] = p-1
