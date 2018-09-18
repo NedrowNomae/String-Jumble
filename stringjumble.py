@@ -37,7 +37,7 @@ idk = list(string)
 n = (len(string))
 a = n
 u = 0
-for b in unedit:
+for b in range(0,n-1):
     if unedit(b) == ' ':
         u = u + 1
 spaces = list[for s in range(0,u)]
