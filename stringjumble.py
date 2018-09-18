@@ -43,6 +43,9 @@ for b in range(0,n-1):
 #for s in range(0,u-1):
 list = [s for s in range(0,u)]
 spaces = list[:]
+for d in range(0,n-1):
+    if unedit[d] == ' ':
+        spaces[d] = d
 #spaces = list()
 """for x in range(1,int(height)+1):
     list = [x*q for q in range(1,int(width)+1)]"""
@@ -54,7 +57,6 @@ spaces = list[:]
         print("Hey")"""
 #print(u)
 print(spaces)
-#print(spaces)
 #print(revcor)
 #print(idk)
 
