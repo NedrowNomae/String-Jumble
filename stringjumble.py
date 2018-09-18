@@ -55,7 +55,7 @@ for p in range(1, n + 1):
 for q in range(1,n):
     if idk[q-1].isdigit:
         for z in range(q,n-q):
-            revcor(z) = unedit(n-z)
+            revcor[z] = unedit[n-z]
 print(spaces)
 print(revcor)
 print(idk)
