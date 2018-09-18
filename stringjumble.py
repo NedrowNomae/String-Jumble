@@ -41,7 +41,7 @@ for b in range(0,n-1):
     if unedit[b] == ' ':
         u = u + 1
 #for s in range(0,u-1):
-list = [s for s in range(0,u)]
+list(spaces) = list[s for s in range(0,u)]
 
 #spaces = list()
 """for x in range(1,int(height)+1):
