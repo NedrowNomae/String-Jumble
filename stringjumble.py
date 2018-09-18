@@ -41,12 +41,12 @@ for b in unedit:
     if unedit(b) == ' ':
         u = u + 1
 spaces = list[for s in range(0,u)]
-for q in range(0,n-1):
+"""for q in range(0,n-1):
     if unedit[q] == ' ':
         list = [int(q)]
         b = b+1
     else:
-        print("Hey")
+        print("Hey")"""
 print(list)
 #print(revcor)
 #print(idk)
