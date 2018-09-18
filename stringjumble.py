@@ -36,10 +36,13 @@ revcor = list(string)
 idk = list(string)
 n = (len(string))
 a = n
-b=0
+u = 0
+for b in unedit:
+    if unedit(b) == ' ":
+        u = u + 1
 for q in range(0,n-1):
     if unedit[q] == ' ':
-        list[b] = [int(q)]
+        list = [int(q)]
         b = b+1
     else:
         print("Hey")
