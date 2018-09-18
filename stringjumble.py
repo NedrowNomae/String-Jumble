@@ -50,9 +50,12 @@ for d in range(0,n-1):
         e = e + 1
 w = len(spaces)
 for t in range(0,w):
+    for y in range(0,spaces[t]):
+        revcor[n-y] = unedit[y]
+"""for t in range(0,w):
     for y in range(0,t):
         for p in range(n-y,n):
-            revcor[p] = unedit[y]
+            revcor[p] = unedit[y]"""
 #spaces = list()
 """for x in range(1,int(height)+1):
     list = [x*q for q in range(1,int(width)+1)]"""
