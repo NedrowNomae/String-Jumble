@@ -38,7 +38,7 @@ n = (len(string))
 a = n
 u = 0
 for b in range(0,n-1):
-    if unedit(b) == ' ':
+    if unedit[b] == ' ':
         u = u + 1
 for s in range(0,u):
     list = list[s for s in range(0,u)]
@@ -48,6 +48,7 @@ for s in range(0,u):
         b = b+1
     else:
         print("Hey")"""
+print(u)
 print(spaces)
 #print(revcor)
 #print(idk)
