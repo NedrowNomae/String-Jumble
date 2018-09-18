@@ -53,7 +53,7 @@ k = 0
 for t in range(0,w):
     for y in range(0,spaces[t]):
     #print(y)
-        revcor[n-y] = unedit[t-k]
+        print(revcor[n-y-1]) = unedit[t-k-1]
         k = k + 1
 """for t in range(0,w):
     for y in range(0,t):
