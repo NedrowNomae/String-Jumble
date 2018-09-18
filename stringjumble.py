@@ -36,9 +36,10 @@ revcor = list(string)
 idk = list(string)
 n = (len(string))
 a = n
+b=0
 for q in range(0,n-1):
     if unedit[q] == ' ':
-        spaces = list[q]
+        spaces[] = list[q]
     else:
         print("Hey")
 print(spaces)
