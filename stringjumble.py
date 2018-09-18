@@ -38,8 +38,8 @@ n = (len(string))
 a = n
 for q in range(0,n-1):
     if unedit[n] == ' ':
-        spaces = list[q]
-
+        #spaces = list[q]
+        print("Hey")
 print(spaces)
 #print(revcor)
 #print(idk)
