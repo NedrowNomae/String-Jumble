@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Eamon
-Credit: none
+Credit: stack overflow
 
 Assignment:string jumble
 
@@ -27,6 +27,9 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 def tnirp(b):
     print(b[::-1])
+def is_number(n):
+    try:
+        float(n)
 a = 0
 #reverse the text
 string = input("Please enter a string of text (the bigger the better): ")
@@ -53,7 +56,7 @@ for p in range(1, n + 1):
     else:
         revcor[p-1]
 for q in range(1,n):
-    if idk[q-1].isdigit == 'true':
+    if is_number(idk[q-1]) == 'true':
         for z in range(q,n-q):
             revcor[z] = unedit[n-z]
 print(spaces)
@@ -64,4 +67,5 @@ print(idk)
 
 print("You entered " + str(string) +". Now jumble it:")
 tnirp(string)
+
 
