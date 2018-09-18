@@ -38,8 +38,9 @@ n = (len(string))
 a = n
 u = 0
 for b in unedit:
-    if unedit(b) == ' ":
+    if unedit(b) == ' ':
         u = u + 1
+spaces = list[for s in range(0,u)]
 for q in range(0,n-1):
     if unedit[q] == ' ':
         list = [int(q)]
