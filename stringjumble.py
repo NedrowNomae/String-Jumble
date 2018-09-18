@@ -41,7 +41,7 @@ for b in range(0,n-1):
     if unedit[b] == ' ':
         u = u + 1
 #for s in range(0,u-1):
-list = list[s for s in range(0,u-1)]
+list = [s for s in range(0,u-1)]
 """for x in range(1,int(height)+1):
     list = [x*q for q in range(1,int(width)+1)]"""
 """for q in range(0,n-1):
