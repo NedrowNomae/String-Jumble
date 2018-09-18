@@ -50,10 +50,11 @@ for d in range(0,n-1):
         e = e + 1
 w = len(spaces)
 k = 0
+print(n)
 for t in range(0,w):
-    for y in range(0,spaces[t]):
+    for y in range(spaces[t],0):
     #print(y)
-        print(revcor[n-y-1]) = unedit[t-k-1]
+        revcor[n-y-1] = unedit[k]
         k = k + 1
 """for t in range(0,w):
     for y in range(0,t):
