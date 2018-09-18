@@ -47,7 +47,7 @@ spaces = list[for s in range(0,u)]
         b = b+1
     else:
         print("Hey")"""
-print(list)
+print(spaces)
 #print(revcor)
 #print(idk)
 
