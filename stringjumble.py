@@ -33,15 +33,18 @@ string = input("Please enter a string of text (the bigger the better): ")
 words = list(string)
 revcor = list(string)
 spaces = list(string)
+idk = list(string)
 n = (len(string))
 a = n
+b=0
 print(a)
 for j in range(1, n + 1):
     if words[j-1] != " ":
         spaces[j-1] = j
 for p in range(1, n + 1):
     if spaces[p-1] == " ":
-        revcor[n-1] = "sup"
+        idk[b] = p-1
+        b = b+1
     else:
         revcor[p-1]
 print(spaces)
