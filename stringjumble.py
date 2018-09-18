@@ -34,13 +34,12 @@ unedit = list(string)
 words = list(string)
 revcor = list(string)
 idk = list(string)
-spaces = list()
 n = (len(string))
 a = n
 b=0
 for q in range(0,n-1):
     if unedit[q] == ' ':
-        spaces[b] = q
+        list[b] = int(q)
         b = b+1
     else:
         print("Hey")
