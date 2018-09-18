@@ -40,7 +40,8 @@ u = 0
 for b in range(0,n-1):
     if unedit(b) == ' ':
         u = u + 1
-spaces = list[s for s in range(0,u)]
+for s in range(0,u):
+    list = list[s for s in range(0,u)]
 """for q in range(0,n-1):
     if unedit[q] == ' ':
         list = [int(q)]
