@@ -49,7 +49,7 @@ for p in range(1, n + 1):
         revcor[p-1]
 print(spaces)
 print(revcor)
-
+print(idk)
 
 
 
