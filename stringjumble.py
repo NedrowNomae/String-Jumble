@@ -45,7 +45,7 @@ list = [s for s in range(0,u)]
 spaces = list[:]
 for d in range(0,n-1):
     if unedit[d] == ' ':
-        spaces[d] = d
+        spaces[d] = int(d)
 #spaces = list()
 """for x in range(1,int(height)+1):
     list = [x*q for q in range(1,int(width)+1)]"""
