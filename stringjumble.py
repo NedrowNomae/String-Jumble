@@ -34,6 +34,7 @@ unedit = list(string)
 words = list(string)
 revcor = list(string)
 idk = list(string)
+spaces = list()
 n = (len(string))
 a = n
 b=0
