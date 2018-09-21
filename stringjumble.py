@@ -50,7 +50,6 @@ for d in range(0,n-1):
 w = len(spaces)
 for p in range(0,n):
     revcor[n-spaces[o]+p for o in range(0,w)] = unedit[p]
-print(n)
 
 #print(u)
 print(spaces)
