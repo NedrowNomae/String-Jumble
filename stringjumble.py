@@ -43,6 +43,7 @@ for b in range(0,n-1):
 e = 0
 list = [s for s in range(0,u)]
 spaces = list[:]
+spaces.insert(0,0)
 spaces.append(n)
 for d in range(0,n-1):
     if unedit[d] == ' ':
@@ -50,11 +51,11 @@ for d in range(0,n-1):
         e = e + 1
 w = len(spaces)
 for t in range(0,w):
-    list[n-spaces[t]] = unedit[0:spaces[t]]
-    
+    #list[n-spaces[t]] = unedit[0:spaces[t]]
+    print(unedit[0:spaces[t]])
 print(n)
 #print(u)
-print(spaces)
+print("spaces: " + str(spaces))
 print(list)
 #print("revcor: " + str(revcor))
 #print(idk)
