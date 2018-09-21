@@ -43,6 +43,7 @@ for b in range(0,n-1):
 e = 0
 list = [s for s in range(0,u)]
 spaces = list[:]
+spaces.append(n)
 for d in range(0,n-1):
     if unedit[d] == ' ':
         spaces[e] = int(d)
@@ -56,7 +57,7 @@ for t in range(0,w):
 #print(spaces)
 print(revcor)
 #print(idk)
-print("unedit: " + unedit)
+print("unedit: " + str(unedit))
 
 
 #print("You entered " + str(string) +". Now jumble it:")
