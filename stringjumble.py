@@ -41,7 +41,6 @@ for b in range(0,n-1):
     if unedit[b] == ' ':
         u = u + 1
 e = 0
-#for s in range(0,u-1):
 list = [s for s in range(0,u)]
 spaces = list[:]
 for d in range(0,n-1):
@@ -49,26 +48,10 @@ for d in range(0,n-1):
         spaces[e] = int(d)
         e = e + 1
 w = len(spaces)
-k = 0
+for p in range(0,n):
+    revcor[n-spaces[o]+p for o in range(0,w)] = unedit[p]
 print(n)
-for t in range(0,w):
-    for y in range(spaces[t],0):
-    #print(y)
-        revcor[n-y-1] = unedit[k]
-        k = k + 1
-"""for t in range(0,w):
-    for y in range(0,t):
-        for p in range(n-y,n):
-            revcor[p] = unedit[y]"""
-#spaces = list()
-"""for x in range(1,int(height)+1):
-    list = [x*q for q in range(1,int(width)+1)]"""
-"""for q in range(0,n-1):
-    if unedit[q] == ' ':
-        list = [int(q)]
-        b = b+1
-    else:
-        print("Hey")"""
+
 #print(u)
 print(spaces)
 print(revcor)
@@ -76,7 +59,7 @@ print(revcor)
 
 
 
-print("You entered " + str(string) +". Now jumble it:")
-tnirp(string)
+#print("You entered " + str(string) +". Now jumble it:")
+#tnirp(string)
 
 
