@@ -50,12 +50,13 @@ for d in range(0,n-1):
         e = e + 1
 w = len(spaces)
 for t in range(0,w):
-    revcor[n - int(spaces[t]):n] = unedit[0:spaces[t]]
+    list = unedit[n-spaces[t]:n]
     
 print(n)
 #print(u)
 print(spaces)
-print("revcor: " + str(revcor))
+print(list)
+#print("revcor: " + str(revcor))
 #print(idk)
 print("unedit: " + str(unedit))
 
