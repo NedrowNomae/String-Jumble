@@ -48,14 +48,15 @@ for d in range(0,n-1):
         spaces[e] = int(d)
         e = e + 1
 w = len(spaces)
-for p in range(0,n):
-    revcor[n-spaces[o]+p for o in range(0,w)] = unedit[p]
+for t in range(0,w):
+    revcor[n-spaces[t]:n] = unedit[0:spaces[t]]
+    
 
 #print(u)
-print(spaces)
+#print(spaces)
 print(revcor)
 #print(idk)
-
+print("unedit: " + unedit)
 
 
 #print("You entered " + str(string) +". Now jumble it:")
