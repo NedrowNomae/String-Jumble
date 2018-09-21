@@ -50,7 +50,7 @@ for d in range(0,n-1):
         e = e + 1
 w = len(spaces)
 for t in range(0,w):
-    list = unedit[n-spaces[t]:n]
+    list[n-spaces[t]] = unedit[0:spaces[t]]
     
 print(n)
 #print(u)
