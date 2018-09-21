@@ -54,7 +54,7 @@ for t in range(0,w):
     
 print(n)
 #print(u)
-print(spaces)
+print("revor: " + str(unedit))
 print(revcor)
 #print(idk)
 print("unedit: " + str(unedit))
