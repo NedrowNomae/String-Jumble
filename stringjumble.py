@@ -41,10 +41,10 @@ for b in range(0,n-1):
     if unedit[b] == ' ':
         u = u + 1
 e = 0
-list = [s for s in range(0,u)]
+list = [0,s for s in range(0,u)]
 spaces = list[:]
 w = len(spaces)
-spaces = [0] + spaces
+#spaces = [0] + spaces
 spaces.append(n)
 for d in range(0,n-1):
     if unedit[d] == ' ':
