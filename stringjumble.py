@@ -32,21 +32,27 @@ a = 0
 string = " " + input("Please enter a string of text (the bigger the better): ")
 unedit = list(string)
 revcor = list(string)
+print(unedit)
 
-n = (len(string))
+n = (len(unedit))
 a = n
 u = 0
 for b in range(0,n-1):
     if unedit[b] == ' ':
         u = u + 1
+
 e = 0
 list = [s for s in range(0,u)]
+for q in range(0,n-1):
+    if unedit[q] == ' ':
+        list[e] = q
+        e = e + 1
 spaces = list[:]
 w = len(spaces)
-#spaces = [0] + spaces
+
 spaces.append(n)
-#for t in range(1,w+1):
-#    revcor[n:n-spaces[t]] = unedit[spaces[t-1],spaces[t]]
+for t in range(1,w+1):
+    revcor[n:n-spaces[t]] = unedit[spaces[t-1],spaces[t]]
 
 #for t in range(0,w):
     #list[n-spaces[t]] = unedit[0:spaces[t]]
