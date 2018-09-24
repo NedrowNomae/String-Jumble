@@ -31,9 +31,10 @@ a = 0
 #reverse the text
 string = " " + input("Please enter a string of text (the bigger the better): ")
 unedit = list(string)
-#revcor = list(string)
-print(unedit)
+
+
 revcor = []
+revrev=[]
 n = (len(unedit))
 u = 0
 for b in range(0,n-1):
@@ -53,13 +54,16 @@ spaces.append(n)
 for t in range(1,w+1):
     list = unedit[spaces[t-1]:spaces[t]]
     revcor = list + revcor
-revcor = list
-p = len(list)
-revcor = list[1,p]
-print("revcor: " + str(revcor))
-#for t in range(0,w):
-    #list[n-spaces[t]] = unedit[0:spaces[t]]
-    #print(unedit[0:spaces[t]])
+list = revcor
+revcor.pop(0)
+
+
+for t in range(1,w+1):
+    list = unedit[spaces[t-1]:spaces[t]]
+    revrev = list + revrev
+    
+revrev.pop(0)
+
     
 #print(n)
 #print(u)
@@ -69,7 +73,7 @@ print("spaces: " + str(spaces))
 print("unedit: " + str(unedit))
 
 
-#print("You entered " + str(string) +". Now jumble it:")
-#tnirp(string)
-
-
+print("You entered " + str(string) +". Now jumble it:")
+tnirp(string)
+print("revcor: " + str(revcor))
+tnirp(str(revrev))
