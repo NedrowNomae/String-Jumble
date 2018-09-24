@@ -41,15 +41,13 @@ for b in range(0,n-1):
     if unedit[b] == ' ':
         u = u + 1
 e = 0
-list = [0,s for s in range(0,u)]
+list = [s for s in range(0,u)]
 spaces = list[:]
 w = len(spaces)
 #spaces = [0] + spaces
 spaces.append(n)
-for d in range(0,n-1):
-    if unedit[d] == ' ':
-        spaces[e] = int(d)
-        e = e + 1
+for t in range(0,w):
+    revcor[n:n-spaces[t] = unedit[0,spaces[t]]
 
 #for t in range(0,w):
     #list[n-spaces[t]] = unedit[0:spaces[t]]
