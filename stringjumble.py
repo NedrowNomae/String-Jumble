@@ -31,9 +31,9 @@ a = 0
 #reverse the text
 string = input("Please enter a string of text (the bigger the better): ")
 unedit = list(string)
-words = list(string)
+
 revcor = list(string)
-idk = list(string)
+
 n = (len(string))
 a = n
 u = 0
@@ -58,7 +58,6 @@ for d in range(0,n-1):
 #print(n)
 #print(u)
 print("spaces: " + str(spaces))
-print(list)
 #print("revcor: " + str(revcor))
 #print(idk)
 print("unedit: " + str(unedit))
