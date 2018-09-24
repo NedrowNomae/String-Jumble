@@ -44,8 +44,7 @@ e = 0
 list = [s for s in range(0,u)]
 spaces = list[:]
 w = len(spaces)
-list = [0,spaces]
-spaces = list[:]
+spaces = 0 + spaces
 spaces.append(n)
 for d in range(0,n-1):
     if unedit[d] == ' ':
