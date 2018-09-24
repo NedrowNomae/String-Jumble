@@ -53,6 +53,9 @@ spaces.append(n)
 for t in range(1,w+1):
     list = unedit[spaces[t-1]:spaces[t]]
     revcor = list + revcor
+revcor = list
+p = len(list)
+revcor = list[1,p]
 print("revcor: " + str(revcor))
 #for t in range(0,w):
     #list[n-spaces[t]] = unedit[0:spaces[t]]
