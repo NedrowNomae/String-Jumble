@@ -31,9 +31,9 @@ a = 0
 #reverse the text
 string = " " + input("Please enter a string of text (the bigger the better): ")
 unedit = list(string)
-revcor = list(string)
+#revcor = list(string)
 print(unedit)
-
+revcor = []
 n = (len(unedit))
 u = 0
 for b in range(0,n-1):
@@ -51,7 +51,8 @@ w = len(spaces)
 
 spaces.append(n)
 for t in range(1,w+1):
-    revcor[[n-spaces[t-1]:n-spaces[t]] = unedit[spaces[t-1]:spaces[t]]
+    list = unedit[spaces[t-1]:spaces[t]]
+    revcor = list + revcor
 print("revcor: " + str(revcor))
 #for t in range(0,w):
     #list[n-spaces[t]] = unedit[0:spaces[t]]
