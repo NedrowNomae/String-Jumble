@@ -47,7 +47,7 @@ w = len(spaces)
 #spaces = [0] + spaces
 spaces.append(n)
 for t in range(0,w):
-    revcor[n:n-spaces[t] = unedit[0,spaces[t]]
+    revcor[n:n-spaces[t]] = unedit[0,spaces[t]]
 
 #for t in range(0,w):
     #list[n-spaces[t]] = unedit[0:spaces[t]]
