@@ -29,8 +29,11 @@ def tnirp(b):
     print(b[::-1])
 a = 0
 #reverse the text
-string = " " + input("Please enter a string of text (the bigger the better): ")
-unedit = list(string)
+string = input("Please enter a string of text (the bigger the better): ")
+stringg = " " + string
+
+
+unedit = list(stringg)
 
 
 revcor = []
