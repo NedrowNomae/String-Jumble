@@ -67,13 +67,18 @@ revrev.pop(0)
     
 #print(n)
 #print(u)
-print("spaces: " + str(spaces))
+#print("spaces: " + str(spaces))
 #print("revcor: " + str(revcor))
-#print(idk)
-print("unedit: " + str(unedit))
+#print("unedit: " + str(unedit))
+revcorr = ""
+for o in revcor:
+    revcorr = revcorr + str(o)
 
 
+revrevv = ""
+for o in revrev:
+    revrevv = revrevv + str(o)
 print("You entered " + str(string) +". Now jumble it:")
 tnirp(string)
-print("revcor: " + str(revcor))
-tnirp(str(revrev))
+print(revcorr)
+tnirp(revrevv)
