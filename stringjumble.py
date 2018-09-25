@@ -77,11 +77,11 @@ revcorr = ""
 for o in revcor:
     revcorr = revcorr + str(o)
 
-
+ u = "
 revrevv = ""
 for o in revrev:
     revrevv = revrevv + str(o)
-print("You entered " + str(string) +". Now jumble it:")
+print("You entered " + str(u) + str(string) + str(u) ". Now jumble it:")
 tnirp(string)
 print(revcorr)
 tnirp(revrevv)
