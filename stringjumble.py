@@ -77,7 +77,7 @@ revcorr = ""
 for o in revcor:
     revcorr = revcorr + str(o)
 
- u = "
+u = "
 revrevv = ""
 for o in revrev:
     revrevv = revrevv + str(o)
